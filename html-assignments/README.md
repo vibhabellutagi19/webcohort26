@@ -33,7 +33,7 @@ A simple HTML resume page showcasing basic HTML elements including headings, par
    - Your default browser will open automatically at `http://127.0.0.1:5500/html-assignments/html-resume-page-assignment.html`
    - Any changes you make to the HTML file will automatically refresh in the browser
 
-![assignment-screenshot](./img.png)
+![assignment-screenshot](./assets/img.png)
 
 ### Stop Live Server
 
