@@ -415,36 +415,41 @@ body {
   text-decoration: none;
 }
 
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 35px 20px;
+  background-color: rgb(27, 25, 19);
+  border-radius: 4px;
+}
+
 .cta-img {
-  width: 100%;
-  min-height: 450px;
+  width: 70%;
+  height: 490px;
+  border-radius: 5px;
 }
 
 .cta-h2 {
   color: rgb(237, 236, 236);
   margin-bottom: 23px;
-  font-size: 36px;
-  font-weight: 350;
-  line-height: 43.2px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
 }
 
 .cta-div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 56px;
+  flex: 1;
 }
 
 .cta-btn {
-  align-self: start;
-  background-color: rgb(237, 236, 236);
-  border-radius: 16px;
-  font-size: 16px;
-  font-weight: 400;
+  display: block;
+  color: rgb(245, 78, 0);
   text-decoration: none;
-  padding-bottom: 12.8px;
-  padding-left: 21.6px;
-  padding-right: 21.6px;
-  padding-top: 12.48px;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 /**recent highlights**/
@@ -452,7 +457,7 @@ body {
 .highlights {
   background-color: rgb(27, 25, 19);
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
   width: 100%;
   padding: 89px 60px;
   gap: 80px;
@@ -463,7 +468,6 @@ body {
   font-weight: 400;
   white-space: nowrap;
   width: 325px;
-  height: 485px;
 }
 
 .hl-list {
@@ -483,8 +487,8 @@ body {
   border-radius: 4px;
 }
 
-.hl-card:last-of-type {
-  border-bottom: 1px solid oklab(0.943853 0.00107113 0.000336707 / 0.15);
+.hl-card:hover {
+  background-color: oklab(40.182% 0.00514 0.00156 / 0.15);
 }
 
 .hl-name {
