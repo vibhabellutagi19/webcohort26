@@ -17,6 +17,12 @@ landing-page-assignment /
 └── readme.md       # This file
 ```
 
+## Video Demo
+
+[Cursor Clone Landing Page Demo](https://www.loom.com/share/6bdce5048fdb42ba9ce13fee88b0267d)
+
+![Cursor Clone Landing Page Screenshot](assets/landing-page.png)
+
 ## How to Run
 
 ### Option 1: Copy the github repository link and clone it to your local machine
